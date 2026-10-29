@@ -1,0 +1,10 @@
+# 1.converting the sentence into uppercase
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.upper())
+print(sentence_2.upper())
+
+# AYYAPPAN IS A GOOD BOY
+# EZHIL IS BAD BOY 
