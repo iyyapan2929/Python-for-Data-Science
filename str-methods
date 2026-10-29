@@ -8,3 +8,319 @@ print(sentence_2.upper())
 
 # AYYAPPAN IS A GOOD BOY
 # EZHIL IS BAD BOY 
+
+# 2.converting the sentence into lowercase
+
+sentence_1 = "AYYAPPAN IS A GOOD BOY"
+sentence_2 = "EZHIL IS A BAD BOY"
+
+print(sentence_1.lower())
+print(sentence_2.lower())
+
+# ayyappan is a good boy
+# ezhil is a bad boy
+
+# 3.converting the sentence into capitalize
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.capitalize())
+print(sentence_2.capitalize())
+
+# Ayyappan is a good boy
+# Ezhil is bad boy
+
+# 4. converting the sentence into title
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.title())
+print(sentence_2.title())
+
+# Ayyappan Is A Good Boy
+# Ezhil Is Bad Boy
+
+# 5. converting the sentence into swapcase letters
+
+sentence_1 = "Ayyappan Is A Good Boy"
+sentence_2 = "Ezhil Is Bad Boy"
+
+print(sentence_1.swapcase())
+print(sentence_2.swapcase())
+
+# aYYAPPAN iS a gOOD bOY
+# eZHIL iS bAD bOY
+
+# 6. converting the sentence into strip
+
+sentence_1 = "  Ayyappan Is A Good Boy  "
+sentence_2 = "  Ezhil Is Bad Boy  "
+
+print(sentence_1.strip())
+print(sentence_2.strip())
+
+#Ayyappan Is A Good Boy
+#Ezhil Is Bad Boy
+
+# 7. converting the sentence into lstrip
+
+sentence_1 = "  Ayyappan Is A Good Boy"
+sentence_2 = "  Ezhil Is Bad Boy"
+
+print(sentence_1.lstrip())
+print(sentence_2.lstrip())
+
+# Ayyappan Is A Good Boy
+# Ezhil Is Bad Boy
+
+# 8.converting the sentence into rstrip
+
+sentence_1 = "Ayyappan Is A Good Boy  "
+sentence_2 = "Ezhil Is Bad Boy  "
+
+print(sentence_1.rstrip())
+print(sentence_2.rstrip())
+
+# Ayyappan Is A Good Boy
+# Ezhil Is Bad Boy
+
+# 9. converting the sentence into replace
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.replace("good", "bad"))
+print(sentence_2.replace("bad", "good"))
+
+# ayyappan is a bad boy
+# ezhil is good boy
+
+# 10. converting the sentence into split
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.split(" "))
+print(sentence_2.split(" "))
+
+# ['ayyappan', 'is', 'a', 'good', 'boy']
+# ['ezhil', 'is', 'bad', 'boy']
+
+# 11. converting the sentence into find
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.find("ayyappan"))
+print(sentence_2.find("boy"))
+
+# 0
+# 13
+
+# 12. converting the sentence into count
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.count(" "))
+print(sentence_2.count("boy"))
+
+# 4
+# 1
+
+# 13. converting the sentence into index
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.index("good"))
+print(sentence_2.index("ezhil"))
+
+# 14
+# 0
+
+# 14. converting the sentence into startswith
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.startswith("ayyappan"))
+print(sentence_2.startswith("boy"))
+
+# True
+# False
+
+# 15. converting the sentence into endswith
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.endswith("ayyappan"))
+print(sentence_2.endswith("boy"))
+
+# False
+# True
+
+# 16. converting the sentence into isalpha
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhilisbadboy"
+
+print(sentence_1.isalpha())
+print(sentence_2.isalpha())
+
+# False
+# True
+
+# 17. converting the sentence into isdigit
+
+sentence_1 = "2026"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.isdigit())
+print(sentence_2.isdigit())
+
+# True
+# False
+
+# 18. converting the sentence into isalnum
+
+sentence_1 = "ayyapanis10yearsold"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.isalnum())
+print(sentence_2.isalnum())
+
+# True
+# False
+
+# 19. converting the sentence into isupper
+
+sentence_1 = "AYYAPPAN IS A GOOD BOY"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.isupper())
+print(sentence_2.isupper())
+
+# True
+# False
+
+# 19. converting the sentence into islower
+
+sentence_1 = "AYYAPPAN IS A GOOD BOY"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.islower())
+print(sentence_2.islower())
+
+# False
+# True
+
+# 20. converting the sentence into isnumeric
+
+sentence_1 = "13000"
+sentence_2 = "ayyapanis10yearsold"
+
+print(sentence_1.isnumeric())
+print(sentence_2.isnumeric())
+
+# True
+# False
+
+#21. converting the sentence into isdecimal
+
+sentence_1 = "13.35"
+sentence_2 = "1200"
+
+print(sentence_1.isdecimal())
+print(sentence_2.isdecimal())
+
+# False
+# True
+
+# 22. converting the sentence into isspace
+
+sentence_1 = "AYYAPPAN IS A GOOD BOY"
+sentence_2 = " "
+
+print(sentence_1.isspace())
+print(sentence_2.isspace())
+
+# False
+# True
+
+#23. converting the sentence into partition
+
+sentence_1 = "ayyappan is a good boy"
+sentence_2 = "ezhil is bad boy"
+
+print(sentence_1.partition("good"))
+print(sentence_2.partition("is"))
+
+# ('ayyappan is a ', 'good', ' boy')
+# ('ezhil ', 'is', ' bad boy')
+
+#24. converting the sentence into center
+
+sentence_1 = "ayyappan"
+sentence_2 = "ezhil"
+
+print(sentence_1.center(20))
+print(sentence_2.center(45))
+
+    #   ayyappan      
+    #                 ezhil 
+
+#25. converting the sentence into istitle
+
+sentence_1 = "Ayyappan"
+sentence_2 = "ezhil"
+
+print(sentence_1.istitle())
+print(sentence_2.istitle())
+
+# True
+# False
+
+#26. converting the sentence into rjust
+
+sentence_1 = "Ayyappan"
+sentence_2 = "ezhil"
+
+print(sentence_1.rjust(15))
+print(sentence_2.rjust(25))
+
+    #   Ayyappan
+    #                 ezhil
+    
+# 27. converting the sentence into ljust
+
+sentence_1 = "Ayyappan"
+sentence_2 = "ezhil"
+
+print(sentence_1.ljust(15))
+print(sentence_2.ljust(25))
+
+# Ayyappan       
+# ezhil 
+
+# 28. converting the sentence into zfill
+
+sentence_1 = "50"
+sentence_2 = "30"
+
+print(sentence_1.zfill(5))
+print(sentence_2.zfill(10))
+
+
+# 00050
+# 0000000030
+      
+            
+    
+    
+
+
+                       
