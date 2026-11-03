@@ -32,6 +32,7 @@ while i <= 10:
   print(i)
   i += 1
 
+secret_number = 29
 
 while True:
   guessing_number = int(input("Enter number : "))
