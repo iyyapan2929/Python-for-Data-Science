@@ -8,13 +8,13 @@
 
 # Get a number from the user and print its multiplication table up to 10.
 
-number = int(input("Enter a number: "))
-i = 1
-while i <= 10:
-    print(f"{number} x {i} = {number * i}")
-    i += 1
+# number = int(input("Enter a number: "))
+# i = 1
+# while i <= 10:
+#     print(f"{number} x {i} = {number * i}")
+#     i += 1
 
-print("Multiplication table completed.")
+# print("Multiplication table completed.")
 
 # x = int(input("Enter number : "))
 
@@ -44,15 +44,15 @@ print("Multiplication table completed.")
 #   # i = i - 1
 # print("Happpyyyy Birthday......")
 
-available_balance = 10000
-while available_balance >= 0:
-  amount = int(input("Enter amount : "))
-  if amount > available_balance:
-    print("Insufficient balance")
-    continue
+# available_balance = 10000
+# while available_balance >= 0:
+#   amount = int(input("Enter amount : "))
+#   if amount > available_balance:
+#     print("Insufficient balance")
+#     continue
   
-  available_balance -= amount
-  if amount == 0:
-    break
+#   available_balance -= amount
+#   if amount == 0:
+#     break
 
-print(available_balance)
+
