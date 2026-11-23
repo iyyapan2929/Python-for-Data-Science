@@ -1,12 +1,12 @@
 # Print numbers from 1 to 10
 
-<<<<<<< HEAD
+
 # for x in range(10, 1):
 #   print(x)
-=======
+
 for x in range(1, 11):
   print(x)
->>>>>>> 8cbda93dc04557f94b9fadb4583f9158f08e25e0
+
 
 # Print numbers from 10 to 1 in reverse order
 
@@ -101,7 +101,7 @@ for x in range(1, 11):
 # array = [2, 3, 4, 9, 33, 45, 66]
 # x = 33
 
-<<<<<<< HEAD
+
 # for num in array:
 #   if x == num:
 #     print(array.index(x))
@@ -181,12 +181,14 @@ def play():
 
 if __name__ == "__main__":
     play()  
-  
-=======
+
+
+# print index of a number in an array
+array = [2, 3, 4, 9, 33, 45, 66]
 for num in array:
   if x == num:
     print(array.index(x))
 else:
   print("invalid")
   
->>>>>>> 8cbda93dc04557f94b9fadb4583f9158f08e25e0
+
